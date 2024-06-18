@@ -45,4 +45,19 @@ console.log(myName)
 
 //task-7-Understanding Unintialized variables
 
+//When JavaScript variables are declared, they have an initial value of undefined
+//If you do a mathematical operation on an "undefined" variable your result will be NaN which means "Not a Number"
+//if you go with a string operation on an "undefined" variable your result will be string of "undefined"
 
+// Only change code below this line
+var a=5;
+var b=10;
+var c="I am a";
+// Only change code above this line
+
+a = a + 1;
+b = b + 5;
+c = c + " String!";
+
+
+//task-8-Understanding Case Sensitivity in Variables
