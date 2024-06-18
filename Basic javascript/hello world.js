@@ -61,3 +61,17 @@ c = c + " String!";
 
 
 //task-8-Understanding Case Sensitivity in Variables
+
+//In JavaScript all variables and function names are case sensitive. This means that capitalization matters.
+//Write variable names in JavaScript in camelCase.
+//multi-word variable names have the first word in lowercase and the first letter of each subsequent word is capitalized.
+
+//example 
+
+var someVariable;
+var anotherVariableName;
+var thisVariableNameIsSoLong;
+
+//task-9-Explore Differences Between the var and let Keywords
+//One of the biggest problems with declaring variables with the var keyword is that you can easily overwrite variable declarations:
+
