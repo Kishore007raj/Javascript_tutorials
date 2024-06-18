@@ -31,3 +31,18 @@ myvar = 10;
 var mynum;
 mynum = myvar //the value assign in myvar will be same as mynum
 console.log(mynum)
+
+
+//task-5-Initializing Variables with the Assignment Operator
+
+var goat=1;
+console.log(goat)
+
+//task-6-Declare String Variables
+//"luffy" is called a string literal which series of characters enclosed in single or double quotes
+var myName= "luffy"
+console.log(myName)
+
+//task-7-Understanding Unintialized variables
+
+
