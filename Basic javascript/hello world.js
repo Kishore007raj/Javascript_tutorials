@@ -73,6 +73,7 @@ var anotherVariableName;
 var thisVariableNameIsSoLong;
 
 //task-9-Explore Differences Between the var and let Keywords
+
 //One of the biggest problems with declaring variables with the var keyword is that you can easily overwrite variable declarations:
 //, when you use "let" instead of "var" for declaring variable , a variable with the same name can only be declared once.
 
@@ -80,7 +81,31 @@ let catName = "Oliver";
 let catSound = "Meow!";
 
 //task-10-Declare a Read-Only Variable with the const Keyword
+
 // the keyword "let" is not the only way to declare variables.
 //we can use "const" keyword to declare variables,and note that variables declared using "const" are read-only
 //They are a constant value, which means that once a variable is assigned with const, it cannot be reassigned
 
+//this const is another way to declare variable name
+const hero ="naruto";
+console.log(hero)
+
+//task-11-add of two numbers in js and also don't use var anymore because it is old
+
+const sum = 10+20;
+console.log(sum)
+
+//subtraction between two numbers
+
+const subtraction = 45-29;
+console.log(subtraction)
+
+//multiplication 
+
+const multiplication = 20*38;
+console.log(multiplication)
+
+//division
+
+const division = 20/4
+console.log(division)
