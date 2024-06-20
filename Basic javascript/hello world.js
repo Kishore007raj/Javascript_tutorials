@@ -2,6 +2,7 @@
 //for printing don't use print instead use console.log
 //a hello world funcion using console.log
 //Task-1
+
 console.log("Hello World");
 console.log("Nice to meet you!!")
 
@@ -15,16 +16,16 @@ console.log("Nice to meet you!!")
 var myName;
 
 //Task-3-storing values with assignment
-
 //In JavaScript, you can store a value in a variable with the assignment operator (=).
+
 var hello;
 hello="world";
 console.log(hello) //for printing don't use print instead use console.log
 
 
 //task-4-Assigning the Value of One Variable to Another
-
 //assigning a value of a variable to another variable using (=) operator
+
 var myvar;
 myvar = 10;
 
@@ -44,7 +45,6 @@ var myName= "luffy"
 console.log(myName)
 
 //task-7-Understanding Unintialized variables
-
 //When JavaScript variables are declared, they have an initial value of undefined
 //If you do a mathematical operation on an "undefined" variable your result will be NaN which means "Not a Number"
 //if you go with a string operation on an "undefined" variable your result will be string of "undefined"
@@ -61,7 +61,6 @@ c = c + " String!";
 
 
 //task-8-Understanding Case Sensitivity in Variables
-
 //In JavaScript all variables and function names are case sensitive. This means that capitalization matters.
 //Write variable names in JavaScript in camelCase.
 //multi-word variable names have the first word in lowercase and the first letter of each subsequent word is capitalized.
@@ -73,7 +72,6 @@ var anotherVariableName;
 var thisVariableNameIsSoLong;
 
 //task-9-Explore Differences Between the var and let Keywords
-
 //One of the biggest problems with declaring variables with the var keyword is that you can easily overwrite variable declarations:
 //, when you use "let" instead of "var" for declaring variable , a variable with the same name can only be declared once.
 
@@ -81,7 +79,6 @@ let catName = "Oliver";
 let catSound = "Meow!";
 
 //task-10-Declare a Read-Only Variable with the const Keyword
-
 // the keyword "let" is not the only way to declare variables.
 //we can use "const" keyword to declare variables,and note that variables declared using "const" are read-only
 //They are a constant value, which means that once a variable is assigned with const, it cannot be reassigned
@@ -111,7 +108,6 @@ const division = 20/4
 console.log(division)
 
 //task-12-Increment a Number with JavaScript
-
 //we can increment or add one to a variable with the ++ operator.
 //i++ which is equilvalent to i=i+1.
 //so if we use the i++ method , The entire line becomes i++;eliminating the need for the equal sign.
@@ -121,7 +117,6 @@ number++;
 console.log(number)
 
 //task-13-Decrement a Number with JavaScript
-
 //We decrement or decrease a variable by one with the -- operator.
 //i-- which is equilvalent to i=i-1.
 
@@ -136,4 +131,20 @@ console.log(serial_no)
 let decimal_nos = 3.44;
 console.log(decimal_nos)
 
+//task-15-Multiply Two Decimals with JavaScript
 
+const product = 2.0 * 4.7;
+console.log(product)
+
+//task-16-Divide One Decimal by Another with JavaScript
+
+const division_number = 3.5/5.0;
+console.log(division_number)
+
+//task-17-Finding a Remainder in JavaScript
+//The remainder operator % gives the remainder of the division of two numbers.
+
+const remainder = 30 % 2;
+console.log(remainder) 
+
+//task-18-Compound Assignment With Augmented Addition
