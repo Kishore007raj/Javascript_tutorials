@@ -78,3 +78,9 @@ var thisVariableNameIsSoLong;
 
 let catName = "Oliver";
 let catSound = "Meow!";
+
+//task-10-Declare a Read-Only Variable with the const Keyword
+// the keyword "let" is not the only way to declare variables.
+//we can use "const" keyword to declare variables,and note that variables declared using "const" are read-only
+//They are a constant value, which means that once a variable is assigned with const, it cannot be reassigned
+
