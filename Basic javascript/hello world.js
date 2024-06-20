@@ -109,3 +109,31 @@ console.log(multiplication)
 
 const division = 20/4
 console.log(division)
+
+//task-12-Increment a Number with JavaScript
+
+//we can increment or add one to a variable with the ++ operator.
+//i++ which is equilvalent to i=i+1.
+//so if we use the i++ method , The entire line becomes i++;eliminating the need for the equal sign.
+
+let number = 20;
+number++;
+console.log(number)
+
+//task-13-Decrement a Number with JavaScript
+
+//We decrement or decrease a variable by one with the -- operator.
+//i-- which is equilvalent to i=i-1.
+
+let serial_no = 34;
+serial_no--;
+console.log(serial_no)
+
+//task-14-Create Decimal Numbers with JavaScript
+// We can store decimal numbers in variables too. 
+// Decimal numbers are sometimes referred to as floating point numbers or floats
+
+let decimal_nos = 3.44;
+console.log(decimal_nos)
+
+
