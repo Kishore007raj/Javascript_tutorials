@@ -52,12 +52,12 @@ console.log(myName)
 // Only change code below this line
 var a=5;
 var b=10;
-var c="I am a";
+var z="I am a";
 // Only change code above this line
 
 a = a + 1;
 b = b + 5;
-c = c + " String!";
+z = z + " String!";
 
 
 //task-8-Understanding Case Sensitivity in Variables
@@ -148,3 +148,35 @@ const remainder = 30 % 2;
 console.log(remainder) 
 
 //task-18-Compound Assignment With Augmented Addition
+
+let x = 3;
+let y = 17;
+
+x += 12;
+y += 9;
+
+console.log(x);
+console.log(y);
+
+//task-19-Compound Assignment With Augmented Subtraction
+
+let d = 34;
+let e = 45;
+
+d -= 20;
+e -= 35;
+
+console.log(d);
+console.log(e);
+
+//task-20-Compound Assignment With Augmented Multiplication
+
+let w = 23;
+w*=20;
+console.log(w)
+
+//task-21-Compound Assignment With Augmented Division
+
+let g = 30;
+g/=20;
+console.log(g)
