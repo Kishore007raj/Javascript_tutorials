@@ -180,3 +180,47 @@ console.log(w)
 let g = 30;
 g/=20;
 console.log(g)
+
+//task-22-Escaping Literal Quotes in Strings
+// When you are defining a string you must start and end with a single or double quote
+// but we can also do it with the help of backslash(\)
+
+const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+console.log(sampleStr)
+console.log(myStr)
+
+//task-23-Quoting Strings with Single Quotes
+var myNewStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+console.log(myNewStr)
+//task-24-Escape Sequences in Strings
+//       Code	Output
+//        \'	single quote
+//        \"	double quote
+//        \\	backslash
+//        \n	newline
+//        \t	tab
+//        \r	carriage return
+//        \b	backspace
+//        \f	form feed
+const mysecStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+console.log(mysecStr)
+
+//task-25-Concatenating Strings with Plus Operator
+// when the + operator is used with a String value, it is called the concatenation operator
+const newStr = "Java" + "Script "
+console.log(newStr)
+
+//task-26-Concatenating Strings with the Plus Equals Operator
+// We can also use the += operator to concatenate a string onto the end of an existing string variable. 
+// Note: Watch out for spaces. Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself.
+
+let lineOne = "This is the first sentence.";
+lineOne += " This is the second sentence.";
+console.log(lineOne)
+
+// task-26-Constructing Strings with Variables
+//By using the concatenation operator (+), you can insert one or more variables into a string you're building.
+const myName = "kawaki";
+const mySpeech = "My name is " + myName + " and I am well!";
+console.log(mySpeech)
