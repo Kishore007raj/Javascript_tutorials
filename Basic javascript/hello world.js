@@ -263,5 +263,27 @@ console.log(thirdLetterOfLastName)
 // In order to get the last letter of a string, you can subtract one from the string's length.
 const lastLetterOfLastName = newline[newline.length - 1]; 
 console.log(lastLetterOfLastName)
+//task-33-Use Bracket Notation to Find the Nth-to-Last Character in a String
+const thirdToLastLetter = newline[newline.length - 3];
+console.log(thirdToLastLetter)
 
-//task-33-
+
+//task-34-Word Blanks
+const sentence = "It was really " + "hot" + ", and we " + "laughed" + " ourselves " + "silly" + ".";
+console.log(sentence)
+
+//task-35-Store Multiple Values in one Variable using JavaScript Arrays
+// With JavaScript array variables, we can store several pieces of data in one place.
+const sandwich = ["peanut butter", "jelly", "bread"];
+console.log(sandwich)
+
+//task-36-Nest one Array within Another Array
+// This is also called a multi-dimensional array.
+const teams = [["Bulls", 23], ["White Sox", 45]];
+console.log(teams)
+
+//task-37-Access Array Data with Indexes
+// We can access the data inside arrays using indexes.
+const myArray = [50, 60, 70];
+const myData = myArray[0];
+console.log(myData)
