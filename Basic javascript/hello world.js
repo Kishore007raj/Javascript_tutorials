@@ -221,6 +221,21 @@ console.log(lineOne)
 
 // task-26-Constructing Strings with Variables
 //By using the concatenation operator (+), you can insert one or more variables into a string you're building.
-const myName = "kawaki";
-const mySpeech = "My name is " + myName + " and I am well!";
+const myname = "kawaki";
+const mySpeech = "My name is " + myname + " and I am well!";
 console.log(mySpeech)
+
+//task-27-Appending Variables to Strings
+// can build a string over multiple lines out of string literals 
+// we can also append variables to a string using the plus equals (+=) operator.
+
+const someAdjective = "cool";
+let line = "Learning to code is ";
+line += someAdjective
+
+//task-28-Find the Length of a String
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
+console.log(lastNameLength)
