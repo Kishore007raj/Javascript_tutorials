@@ -239,3 +239,27 @@ let lastNameLength = 0;
 const lastName = "Lovelace";
 lastNameLength = lastName.length;
 console.log(lastNameLength)
+
+//task-29-Use Bracket Notation to Find the First Character in a String
+// Setup
+let firstLetterOfLastName = "";
+const newName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = newName[0]; // Change this line
+
+//task-30-Understand String Immutability
+// In JavaScript, String values are immutable, which means that they cannot be altered once created.
+let newname = "Bob";
+newname = "Job";
+console.log(newname)
+
+//task-31-Use Bracket Notation to Find the Nth Character in a String
+// use bracket notation to get the character at other positions within a string.
+const newline = "Lovelace";
+const thirdLetterOfLastName = newline[2]; 
+console.log(thirdLetterOfLastName)
+//task-32-Use Bracket Notation to Find the Last Character in a String
+// In order to get the last letter of a string, you can subtract one from the string's length.
+const lastLetterOfLastName = newline[newline.length - 1]; 
+console.log(lastLetterOfLastName)
