@@ -263,3 +263,5 @@ console.log(thirdLetterOfLastName)
 // In order to get the last letter of a string, you can subtract one from the string's length.
 const lastLetterOfLastName = newline[newline.length - 1]; 
 console.log(lastLetterOfLastName)
+
+//task-33-
