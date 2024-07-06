@@ -37,3 +37,4 @@ console.log(text_element.innerText);
 const text_content = document.querySelector("nav");
 console.log(text_content.textContent);
 //output will be home about contact country 
+
