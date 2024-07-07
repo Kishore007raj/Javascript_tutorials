@@ -6,6 +6,9 @@ const div = document.createElement("div")
 
 //alt way and a secure way
 const strong = document.createElement("strong")
-strong.innerText = "hell world"
+strong.innerText = "hello world"
 div.append(strong)
 body.append(div)
+
+//removing elements
+const hi = document.querySelector("")
